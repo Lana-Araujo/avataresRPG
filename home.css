@@ -21,14 +21,14 @@ p {
 input {
     outline: none;
     width: 95%;
-    margin-top: 4px;
+    margin-top: 10px;
     padding: 10px;
     border: 1px solid #b2b2b2;
 }
 select{
     outline: none;
     width: 99%;
-    margin-top: 4px;
+    margin-top: 7px;
     padding: 10px;
     border: 1px solid #b2b2b2;
 }
