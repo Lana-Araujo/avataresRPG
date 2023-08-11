@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
     <title>CRIAÇAO RPG</title>
 </head>
 
@@ -12,9 +13,9 @@
     <div class="content">
         <form id="form">
             <h1>Criação de personagem</h1>
-            <label for="name">Nome do personagem:</label> <br>
+            <label for="name" id="nome">Nome do personagem:</label> <br>
             <input type="text" placeholder=""><br>
-            <label for="class">Classe:</label> <br>
+            <label for="class" id="escolherpersonagem">Classe:</label> <br>
             <select id="class" required>
                 <option value="selecione">Selecione</option>
                 <option value="guerreiro">Guerreiro</option>
@@ -23,7 +24,7 @@
                 
             </select>
 
-            <br><label for="class">Servidor:</label> <br>
+            <br><label for="class" id="escolherpais">Servidor:</label> <br>
             <select id="class" required>
                 <option value="selecione">Selecione</option>
                 <option value="brasil">Brasil</option>
@@ -31,7 +32,7 @@
                 <option value="colombia">Colômbia</option>
 
             </select>
-            <br><label for="class">Cidade:</label> <br>
+            <br><label for="class"id="escolhercidade">Cidade:</label> <br>
             <select id="class" required>
                 <option value="selecione">Selecione</option>
                 <option value="SP">SP</option>
