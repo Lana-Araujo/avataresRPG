@@ -2,12 +2,21 @@ body {
     margin: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image:url("x.jpg") ;
+   
+
 }
 
 a {
     text-decoration: none;
+    
+
 }
 
+h1{
+    font-family: 'Medula One', cursive;
+    color:black;
+    font-size: 80px;
+}
 .content {
     width: 500px;
     margin: 0px auto;
